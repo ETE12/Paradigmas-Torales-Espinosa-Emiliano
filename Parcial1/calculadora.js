@@ -26,6 +26,11 @@ function dividir() {
     }
 }
 
+function raizalasegunda(){
+    let num1 = parseFloat(document.getElementById("input1").value);
+    document.getElementById("resultado").innerHTML = "Resultado: " + Math.sqrt(num1); 
+}
+
 function raizCuadrada() {
     let num1 = parseFloat(document.getElementById("input1").value);
     if (num1 >= 0) {
