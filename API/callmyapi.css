@@ -6,7 +6,7 @@ body {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #FF69B4;
     color: white;
     border: none;
     cursor: pointer;
@@ -15,7 +15,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #FF1493;
 }
 
 #resultado {
