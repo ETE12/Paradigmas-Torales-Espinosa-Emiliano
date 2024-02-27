@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+       <head>
+    <link rel="stylesheet" type="text/css" href="callmyapi.css">
+</head>
+
+<body>
+
+<button onclick="getMyIpHttp()"> get my IP (HttpRequest) </button>
+<button onclick="getMyIpFetch()"> get my IP (Fetch) </button>
+
+<button onclick="getMyIpCDN()"> get my IP (CDN) </button>
+<button onclick="getMyIpDataCDN()"> get Random Data (CDN) </button>
+
+<button onclick="getMyIpLocal()"> get my IP (Local) </button>
+<button onclick="getMyDataLocal()">get Random Data (Local) </button>
+
+
+<div id="resultado"></div>
+<script src="jquery.js"> </script>
+<script src="http://ajax.googleapis.com/ajax/Libs/jquery/1.6.1/jquery.min.js"> </script>
+<script src="callmyapi.js"></script>
+</body>
+</html>
+
